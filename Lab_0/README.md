@@ -1,4 +1,4 @@
-# SOLID Principles Implementation
+# Lab Work 0: SOLID Principles Implementation
 
 ## Author: Madalina Chirpicinic, FAF-233
 
@@ -60,20 +60,20 @@ Below are provided screenshots of how the shopping cart discount system works fo
 ## Case 1: Percentage Discount
 
 **Code:**
-![Percentage Discount Code](PD-code.png)
+![Percentage Discount Code](screenshots/PD-code.png)
 
 **Result:**
-![Percentage Discount Result](PD-solution.png)
+![Percentage Discount Result](screenshots/PD-solution.png)
 
 ---
 
 ## Case 2: Fixed Discount
 
 **Code:**
-![Fixed Discount Code](FD-code.png)
+![Fixed Discount Code](screenshots/FD-code.png)
 
 **Result:**
-![Fixed Discount Result](FD-solution.png)
+![Fixed Discount Result](screenshots/FD-solution.png)
 
 
 ## Conclusions / Results
