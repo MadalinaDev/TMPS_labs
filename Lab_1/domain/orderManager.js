@@ -1,16 +1,11 @@
-// Singleton Pattern:
-// The OrderManager class ensures only ONE instance exists throughout the app.
-// It manages all created orders globally.
 class OrderManager {
   constructor() {
-    // If an instance already exists, return it (Singleton enforcement)
     if (OrderManager.instance) {
       return OrderManager.instance;
     }
 
     this.orders = [];
 
-    // Store the single instance for future reference
     OrderManager.instance = this;
   }
 

@@ -1,4 +1,3 @@
-// The Order class represents a final, ready-to-deliver order object.
 class Order {
   constructor() {
     this.items = [];
@@ -20,10 +19,6 @@ Total: ${this.getTotal()} MDL
   }
 }
 
-// ✅ Builder Pattern:
-// The OrderBuilder class separates the construction of a complex object (Order)
-// from its representation. It lets us create different configurations of Orders
-// step-by-step, without needing a long constructor with many parameters.
 export default class OrderBuilder {
   constructor() {
     this.order = new Order();
@@ -31,7 +26,7 @@ export default class OrderBuilder {
 
   setCustomer(name) {
     this.order.customerName = name;
-    return this; // allows method chaining
+    return this;
   }
 
   setAddress(address) {
@@ -44,7 +39,6 @@ export default class OrderBuilder {
     return this;
   }
 
-  // Final step: returns the fully built Order object
   build() {
     return this.order;
   }
