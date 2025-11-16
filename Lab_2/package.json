@@ -1,0 +1,11 @@
+{
+    "name": "food-delivery-lab2",
+    "version": "1.0.0",
+    "description": "Food Delivery Application demonstrating Structural Design Patterns - Lab 2",
+    "main": "client/main.js",
+    "type": "module",
+    "scripts": {
+        "start": "node client/main.js",
+        "test": "echo \"No tests configured\" && exit 0"
+    }
+}
