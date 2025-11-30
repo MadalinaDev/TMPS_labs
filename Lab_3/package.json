@@ -1,0 +1,14 @@
+{
+  "name": "Lab_3",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "description": "Food Delivery Application demonstrating Behavioral Design Patterns - Lab 3",
+  "main": "client/main.js",
+  "type": "module",
+  "packages": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"No tests configured\" && exit 0"
+  }
+}
